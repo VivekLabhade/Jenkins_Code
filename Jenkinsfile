@@ -9,7 +9,7 @@ node()
         
     stage "Deploy Application"
         //sh 'rm /var/lib/tomcat/webapps/nvnshoppingcart*'
-        sh 'sudo p **/*.war /opt/devops'
+        sh 'sudo cp **/*.war /opt/devops'
 }
 
 
